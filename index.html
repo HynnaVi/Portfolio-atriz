@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anny Vitoria - Atriz | Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode"> 
+    <header class="header">
+        <a href="#" class="logo">&lt;Anny Vitoria&gt;</a>
+        <nav class="nav">
+        </nav>
+
+        <div class="lang-selector">
+            <button id="lang-br" class="lang-btn active-lang" data-lang="pt" title="Português">
+                <img src="images.png" alt="Português" class="flag-icon"> BR 
+            </button>
+            <span>|</span>
+            <button id="lang-en" class="lang-btn" data-lang="en" title="English">
+                <img src="download.png" alt="English" class="flag-icon"> US 
+            </button>
+        </div>
+
+        <button id="mode-toggle" title="Alternar Modo Escuro/Claro">
+            <i class="fas fa-sun"></i> 
+        </button>
+    </header>
+
+    <section id="home" class="hero" style="background-image: url(vecteezy_popcorn-and-sunglasses-on-a-red-background_75314071.jpg);">
+        <div class="hero-content">
+            <p class="greeting" data-key="heroGreeting">Olá, eu sou a</p>
+            <h1 data-key="heroName">Anny Vitoria</h1>
+            <p class="bio" data-key="heroBio">Sou atriz e gosto de dar vida a personagens que parecem reais, que sentem de verdade. Eu gosto de histórias intensas, principalmente romance e drama, mas topo sair da zona de conforto se o papel for bom. Pra mim, atuar é entrar em outro mundo por um tempo, e fazer as pessoas sentirem junto comigo.</p>
+            <a href="#projetos" class="btn primary-btn" data-key="heroButton">Ver Meus Filmes</a>
+        </div>
+    </section>
+
+    <section id="habilidades" class="skills section">
+        <h2 data-key="skillsTitle">Minhas Habilidades</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <p data-key="skill1">Atuação para Cinema e TV</p>
+                <div class="bar-container"><div class="bar" data-percent="95"></div></div>
+            </div>
+            <div class="skill-item">
+                <p data-key="skill2">Interpretação Teatral</p>
+                <div class="bar-container"><div class="bar" data-percent="90"></div></div>
+            </div>
+             <div class="skill-item">
+                <p data-key="skill3">Expressão Corporal e Vocal</p>
+                <div class="bar-container"><div class="bar" data-percent="85"></div></div>
+            </div>
+             <div class="skill-item">
+                <p data-key="skill4">Improvisação</p>
+                <div class="bar-container"><div class="bar" data-percent="80"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="projects section">
+        <h2 data-key="projectsTitle">Meus Trabalhos em Destaque</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="fantasia.png" alt="A Jornada Da Feiticeira">
+                <div class="project-overlay">
+                    <h3 data-key="project1Title">A Jornada Da Feiticeira</h3>
+                    <p data-key="project1Desc">Quando uma garota comum descobre que consegue atravessar espelhos e entrar em um reino esquecido pelo tempo, ela percebe que é a única capaz de impedir que a escuridão consuma os dois mundos. Entre magia, segredos antigos e escolhas impossíveis, ela precisa decidir quem está disposta a se tornar.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn small-btn" data-key="btnDemo">Ver Trailer</a>
+                        <a href="#" target="_blank" class="btn small-btn outline-btn" data-key="btnCode"><i class="fas fa-film"></i> Bastidores</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="epoca.png" alt="O Coração Da Senhorita Bennet">
+                <div class="project-overlay">
+                    <h3 data-key="project2Title">O Coração Da Senhorita Bennet</h3>
+                    <p data-key="project2Desc">Em meio às rígidas regras da sociedade do século XIX, uma jovem determinada luta para ter voz própria enquanto enfrenta um casamento arranjado. Entre cartas secretas, encontros proibidos e expectativas familiares, ela descobre que o amor pode ser o maior ato de coragem.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn small-btn" data-key="btnDemo">Ver Trailer</a>
+                        <a href="#" target="_blank" class="btn small-btn outline-btn" data-key="btnCode"><i class="fas fa-film"></i> Bastidores</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="romance.png" alt="Nosso Amor Inesquecível">
+                <div class="project-overlay">
+                    <h3 data-key="project3Title">Nosso Amor Inesquecível</h3>
+                    <p data-key="project3Desc">Depois de uma decepção amorosa, uma jovem decide recomeçar em uma nova cidade, prometendo a si mesma não se apaixonar novamente. Mas quando conhece alguém que desafia todas as suas certezas, ela percebe que o amor pode surgir exatamente quando menos se espera.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn small-btn" data-key="btnDemo">Ver Trailer</a>
+                        <a href="#" target="_blank" class="btn small-btn outline-btn" data-key="btnCode"><i class="fas fa-film"></i> Bastidores</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact section">
+        <h2 data-key="contactTitle">Vamos Trabalhar Juntos?</h2>
+        <p data-key="contactSubtitle" style="text-align: center; margin-bottom: 30px;">Entre em contato para testes de elenco, parcerias ou projetos artísticos.</p>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Seu Nome" required data-key="formNamePlaceholder">
+            <input type="email" name="email" placeholder="Seu Email" required data-key="formEmailPlaceholder">
+            <textarea name="message" placeholder="Sua Mensagem" required data-key="formMessagePlaceholder"></textarea>
+            <button type="submit" class="btn primary-btn" data-key="formSend">Enviar Mensagem</button>
+            <p id="form-message" class="message-feedback"></p>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p data-key="footerText">&copy; 2026 Anny Vitoria.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
